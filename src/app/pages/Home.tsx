@@ -7,8 +7,8 @@ import example from "../images/example.jpeg";
 
 const Home = () => {
     return (
-        <div id='home' className=" text-white min-h-screen flex items-center justify-around">
-            <div className='flex flex-col justify-center items-start gap-4'>
+        <div id='home' className=" text-white min-h-screen flex items-center justify-around px-[40px]">
+            <div className='flex flex-col ms-[100px] items-start gap-4'>
                 <header className="text-start">
                     <h1 className="text-5xl font-bold mb-4">Lost & Found in MFU</h1>
                     <p className="text-xl">Social Networking Platform</p>

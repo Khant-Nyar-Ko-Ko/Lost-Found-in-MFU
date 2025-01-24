@@ -2,6 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { FaCommentDots, FaDownload, FaStar } from 'react-icons/fa6';
 import { MdOutlinePerson } from 'react-icons/md';
+import example from "../images/example.jpeg";
 
 const Features = () => {
     const metaData = [
@@ -37,9 +38,9 @@ const Features = () => {
                 {/* Image Section */}
                 <div className="px-4">
                     <Image
-                        src="/images/mockup.png"
+                        src={example}
                         alt="App Mockup"
-                        className="rounded-lg shadow-lg mx-auto"
+                        className="rounded-lg shadow-lg mx-auto w-[160px]"
                     />
                 </div>
                 {/* Features Section */}
