@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="text-white p-4 flex flex-col md:flex-row justify-between items-center gap-3 md:gap-0 border-t border-slate-50 border-opacity-30">
+        <footer className="text-white p-4 flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0 border-t border-slate-50 border-opacity-30">
 
             <div>
                 <h3 className=" text-base md:text-lg font-semibold">Lost & Found MFU</h3>

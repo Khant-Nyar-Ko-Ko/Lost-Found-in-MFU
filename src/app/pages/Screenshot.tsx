@@ -14,7 +14,7 @@ const Screenshot = () => {
     const exampleScreens = [screen1, screen2, screen3];
 
     return (
-        <section id='screenshot' className="bg-gray-50 py-14">
+        <section id='screenshot' className="bg-gradient-to-tr from-white to-slate-300 py-14">
             <div className="container mx-auto text-center px-4">
                 <div className='flex flex-col gap-4 justify-center items-center my-6'>
                     <h2 className=" text-2xl md:text-4xl font-bold  text-gray-800 ">App Screenshot</h2>

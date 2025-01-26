@@ -23,7 +23,7 @@ const Service = () => {
     ]
 
     return (
-        <div id='services' className='bg-gray-50 text-black min-h-[600px] flex flex-col justify-around items-center py-10 md:py-20'>
+        <div id='services' className='bg-gradient-to-tr from-white to-slate-300  text-black min-h-[600px] flex flex-col justify-around items-center py-10 md:py-20'>
             <div className='flex flex-col gap-4 justify-center items-center py-6'>
                 <h3 className=' text-2xl md:text-4xl font-semibold'>Our Services</h3>
                 <p className='text-sm md:text-base mx-3 md:mx-0 text-slate-600'>deliver a seamless, efficient, and secure platform for solving lost-and-found problems</p>

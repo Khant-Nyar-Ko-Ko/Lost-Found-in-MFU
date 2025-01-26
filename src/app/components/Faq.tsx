@@ -30,7 +30,7 @@ const Faq = () => {
     };
 
     return (
-        <div className="py-16 bg-gray-50">
+        <div className="py-16 bg-gradient-to-tr from-white to-slate-300">
             <div className="max-w-5xl mx-auto px-4">
                 {/* Header */}
                 <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 text-center">Frequently Asked Questions</h2>

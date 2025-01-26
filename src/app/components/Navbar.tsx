@@ -35,7 +35,7 @@ const Navbar = () => {
         };
 
         return (
-            <li className="hover:underline underline-offset-4 duration-300 cursor-pointer">
+            <li className="hover:underline font-semibold underline-offset-4 duration-300 cursor-pointer">
                 <a href={to} onClick={handleScroll}>
                     {children}
                 </a>
@@ -48,10 +48,11 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="flex justify-between md:justify-around items-center py-6 px-4 bg-opacity-10 backdrop-blur-lg text-white fixed top-0 left-0 z-10 w-full border-b border-slate-50 border-opacity-30">
+        <nav className="flex justify-between md:justify-around items-center py-6 px-4 bg-opacity-10 backdrop-blur-lg text-white fixed top-0 left-0 z-20 w-full border-b border-slate-50 border-opacity-30">
             <div className="flex items-center">
                 <FaPeopleGroup size={30} />
-                <h2 className="text-2xl ml-2">Tech Guys</h2>
+                <h2 className="text-2xl font-extrabold" >Tech Guys</h2>
+                <FaPeopleGroup size={30} />
             </div>
 
             <ul className="hidden md:flex gap-8">
@@ -76,7 +77,7 @@ const Navbar = () => {
             </div>
 
             {isMobileMenuOpen && (
-                <div className="absolute top-20 left-0 w-full bg-gradient-to-br from-blue-400 to-teal-400 bg-opacity-95 backdrop-blur-xl text-white">
+                <div className="absolute z-10 top-20 left-0 w-full bg-gradient-to-br from-blue-400 to-teal-400 bg-opacity-10 backdrop-blur-lg text-white">
                     <ul className="flex flex-col items-center gap-6 py-4">
                         {navItems.map((item) => {
                             const sectionId = item.toLowerCase();
