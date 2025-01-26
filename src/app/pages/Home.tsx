@@ -1,9 +1,9 @@
 import React from 'react';
 import { BsAndroid2 } from 'react-icons/bs';
 import { FaApple } from 'react-icons/fa6';
-import phone from "../images/phone.png";
+import phone from "../../../public/images/phone.png";
 import Image from 'next/image';
-import example from "../images/example.jpeg";
+import example from "../../../public/images/example.jpeg";
 
 const Home = () => {
     return (
@@ -40,12 +40,14 @@ const Home = () => {
                     src={phone}
                     alt="App Screenshot"
                     className="w-[500px] z-10"
+                    unoptimized
                 />
 
                 <Image
                     src={example}
                     alt="Example"
                     className="absolute w-[200px] h-[430px] top-[35px] left-[150px] z-0"
+                    unoptimized
                 />
             </div>
 

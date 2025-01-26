@@ -4,10 +4,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { Navigation, Pagination } from 'swiper/modules';
 import Image from 'next/image'; // Next.js Image component
-import phone from '../images/phone.png'; // Replace with your phone PNG path
-import screen1 from '../images/example.jpeg'; // Example screenshot images
-import screen2 from '../images/example.jpeg';
-import screen3 from '../images/example.jpeg';
+import phone from '../../../public/images/phone.png'; // Replace with your phone PNG path
+import screen1 from '../../../public/images/example.jpeg'; // Example screenshot images
+import screen2 from '../../../public/images/example.jpeg';
+import screen3 from '../../../public/images/example.jpeg';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 const Screenshot = () => {

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import React from 'react';
 import { FaCommentDots, FaDownload, FaStar } from 'react-icons/fa6';
 import { MdOutlinePerson } from 'react-icons/md';
-import example from "../images/example.jpeg";
+import example from "../../../public/images/example.jpeg";
 
 const Features = () => {
     const metaData = [
