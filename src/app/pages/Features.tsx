@@ -28,24 +28,24 @@ const Features = () => {
         }
     ]
     return (
-        <section id='features' className="py-20 flex flex-col gap-6 justify-around items-center w-screen">
+        <section id='features' className=" py-8 md:py-20 flex flex-col gap-6 justify-around items-center w-screen">
             <div className='flex flex-col gap-4 justify-center items-center my-10'>
-                <h2 className="text-3xl font-bold  text-white ">Special Features</h2>
-                <p>Users no longer need to post on social media or multiple forums to find their lost items.</p>
+                <h2 className="text-2xl md:text-4xl font-semibold ">Special Features</h2>
+                <p className='text-sm md:text-base mx-3 md:mx-0 text-white'>Users no longer need to post on social media or multiple forums to find their lost items.</p>
             </div>
 
-            <div className="flex justify-around gap-10 w-screen">
+            <div className="flex flex-col md:flex-row justify-around gap-10 w-screen">
                 {/* Image Section */}
                 <div className="px-4">
                     <Image
                         src={example}
                         alt="App Mockup"
-                        className="rounded-lg shadow-lg mx-auto w-[160px]"
+                        className="rounded-lg shadow-lg mx-auto w-[120px]  md:w-[160px]"
                     />
                 </div>
                 {/* Features Section */}
                 <div className="px-4">
-                    <div className="grid grid-cols-2 gap-6 text-left">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3 md:gap-6 text-left">
                         {[
                             'User Registration & Profile',
                             'Lost/Found Item Reporting',
@@ -80,17 +80,17 @@ const Features = () => {
                         ))}
                     </div>
                     <div className="mt-8 text-center">
-                        <button className="px-6 py-3 bg-teal-700 text-white font-medium rounded-lg shadow-md hover:bg-teal-600 transition">
+                        <button className="px-3 md:px-6 py-1 md:py-3 bg-teal-700 text-white font-light md:font-medium rounded-lg shadow-md hover:bg-teal-600 transition">
                             Read More
                         </button>
                     </div>
                 </div>
             </div>
-            <div className='flex justify-around items-center gap-10 mt-10'>
+            <div className='flex flex-col md:flex-row justify-around items-start md:items-center gap-4 md:gap-10 mt-2 md:mt-10'>
                 {metaData.map((data, index) => (
                     <div className='flex gap-4 justify-center items-center' key={index}>
                         <p className=' px-4 py-3 border rounded'>{data.icon}</p>
-                        <div className='flex flex-col justify-center items-start px-4 py-3'>
+                        <div className='flex flex-row gap-2 md:gap-0 md:flex-col justify-center items-start px-4 py-3'>
                             <h4>{data.number}</h4>
                             <p>{data.text}</p>
                         </div>

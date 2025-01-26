@@ -33,7 +33,7 @@ const Faq = () => {
         <div className="py-16 bg-gray-50">
             <div className="max-w-5xl mx-auto px-4">
                 {/* Header */}
-                <h2 className="text-3xl font-extrabold text-gray-900 text-center">Frequently Asked Questions</h2>
+                <h2 className="text-2xl md:text-3xl font-extrabold text-gray-900 text-center">Frequently Asked Questions</h2>
                 <p className="mt-4 text-gray-600 text-center">
                     Find answers to some of the most common questions about our app.
                 </p>

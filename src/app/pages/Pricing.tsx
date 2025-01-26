@@ -3,16 +3,16 @@ import React from 'react'
 const Pricing = () => {
     return (
         <section id='pricing'><div className="py-16">
-            <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-3xl font-extrabold text-white">Choose Your Plan</h2>
-                <p className="mt-4 text-lg text-gray-100">
+            <div className="md:max-w-7xl mx-auto text-center">
+                <h2 className="text-2xl md:text-4xl font-extrabold text-white">Choose Your Plan</h2>
+                <p className=" mt-2 md:mt-4 text-base md:text-xl text-gray-100">
                     Get started for free and unlock premium features when you are ready.
                 </p>
             </div>
 
             <div className="mt-12 grid gap-6 md:grid-cols-3 max-w-5xl mx-auto">
                 {/* Free Plan */}
-                <div className=" flex flex-col justify-between bg-white shadow-lg rounded-lg p-6">
+                <div className=" flex flex-col justify-between bg-white shadow-lg rounded-lg p-6 mx-4 md:mx-0">
                     <h3 className="text-xl font-semibold text-gray-800">Free Plan</h3>
                     <p className="mt-2 text-gray-600">Perfect for individuals starting out.</p>
                     <p className="mt-4 text-3xl font-extrabold text-gray-900">Free</p>
@@ -28,7 +28,7 @@ const Pricing = () => {
                 </div>
 
                 {/* Pro Plan */}
-                <div className=" flex flex-col justify-between bg-white shadow-lg rounded-lg p-6">
+                <div className=" flex flex-col justify-between bg-white shadow-lg rounded-lg p-6 mx-4 md:mx-0">
                     <h3 className="text-xl font-semibold text-gray-800">Pro Plan</h3>
                     <p className="mt-2 text-gray-600">For professionals who need more power.</p>
                     <p className="mt-4 text-3xl font-extrabold text-gray-900">Coming Soon</p>
@@ -43,7 +43,7 @@ const Pricing = () => {
                 </div>
 
                 {/* Premium Plan */}
-                <div className=" flex flex-col justify-between bg-white shadow-lg rounded-lg p-6">
+                <div className=" flex flex-col justify-between bg-white shadow-lg rounded-lg p-6 mx-4 md:mx-0">
                     <h3 className="text-xl font-semibold text-gray-800">Premium Plan</h3>
                     <p className="mt-2 text-gray-600">For enterprises with advanced needs.</p>
                     <p className="mt-4 text-3xl font-extrabold text-gray-900">Coming Soon</p>

@@ -43,8 +43,8 @@ const Testimonial = () => {
     return (
         <div id="testimonial" className="md:py-12 px-6">
             <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-3xl font-extrabold text-white">Testimonials</h2>
-                <p className="mt-4 text-lg text-gray-100">
+                <h2 className="text-2xl md:text-4xl font-extrabold text-white">Testimonials</h2>
+                <p className="mt-4 text-sm md:text-base text-gray-100">
                     Here are the feedbacks from the app
                 </p>
             </div>

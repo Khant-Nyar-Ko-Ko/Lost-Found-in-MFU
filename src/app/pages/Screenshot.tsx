@@ -17,8 +17,8 @@ const Screenshot = () => {
         <section id='screenshot' className="bg-gray-50 py-14">
             <div className="container mx-auto text-center px-4">
                 <div className='flex flex-col gap-4 justify-center items-center my-6'>
-                    <h2 className="text-3xl font-bold  text-gray-800 ">App Screenshot</h2>
-                    <p className='text-gray-600 w-[700px]'>To create a reliable solution for reuniting people with their lost belongings while providing a simple and accessible interface for reporting and searching for items</p>
+                    <h2 className=" text-2xl md:text-4xl font-bold  text-gray-800 ">App Screenshot</h2>
+                    <p className='text-sm md:text-base mx-2 md:mx-0 text-gray-600 w-full md:w-[700px]'>To create a reliable solution for reuniting people with their lost belongings while providing a simple and accessible interface for reporting and searching for items</p>
                 </div>
                 <div className="relative">
                     {/* Swiper Component */}
@@ -29,22 +29,22 @@ const Screenshot = () => {
                         spaceBetween={30}
                         slidesPerView={1}
                         loop={true}
-                        className="max-w-4xl mx-auto"
+                        className="md:max-w-4xl mx-auto"
                     >
                         {exampleScreens.map((screen, index) => (
                             <SwiperSlide key={index}>
-                                <div className="relative mt-16 flex justify-center">
+                                <div className="relative md:mt-16 flex justify-center">
                                     {/* Phone Image */}
                                     <Image
                                         src={phone}
                                         alt="App Screenshot"
-                                        className="w-[500px] z-10"
+                                        className=" w-[300px] md:w-[500px] z-10"
                                     />
                                     {/* Example Image in the Phone Screen */}
                                     <Image
                                         src={screen}
                                         alt={`Example ${index + 1}`}
-                                        className="absolute w-[200px] h-[400px] top-16 left-[350px] z-0" // Adjust size and position for perfect alignment
+                                        className="absolute w-[120px] md:w-[200px] h-[256px] md:h-[400px] top-6 md:top-16 md:left-[350px] z-0" // Adjust size and position for perfect alignment
                                     />
                                 </div>
                             </SwiperSlide>
