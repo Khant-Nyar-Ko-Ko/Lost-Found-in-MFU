@@ -3,7 +3,7 @@ import { BsAndroid2 } from 'react-icons/bs';
 import { FaApple } from 'react-icons/fa6';
 import phone from "../../../public/images/phone.png";
 import Image from 'next/image';
-import example from "../../../public/images/example.jpeg";
+import example from "../../../public/images/main.jpg";
 
 const Home = () => {
     return (
